@@ -1,0 +1,23 @@
+{
+  "name": "@smooth-scrollbar-contrib/tsconfig",
+  "version": "1.0.0",
+  "description": "Shared TypeScript config for Smooth Scrollbar HQ",
+  "main": "tsconfig.json",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smooth-scrollbar/tsconfig.git"
+  },
+  "keywords": [
+    "tsconfig",
+    "typescript"
+  ],
+  "author": "Smooth Scrollbar HQ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smooth-scrollbar/tsconfig/issues"
+  },
+  "homepage": "https://github.com/smooth-scrollbar/tsconfig#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
