@@ -2,6 +2,7 @@
   // shared tsconfig for react projects
   "extends": "./tsconfig.json",
   "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],
     // use the new jsx transform, see: https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html
     "jsx": "react-jsx",
     // enable `import react from 'react'
