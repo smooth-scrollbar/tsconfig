@@ -10,10 +10,18 @@ npm install --save-dev @smooth-scrollbar-contrib/tsconfig
 
 ### Usage
 
-In `tsconfig.json`:
+#### 1. Use the base config:
 
 ```json
 {
   "extends": "@smooth-scrollbar-contrib/tsconfig",
+}
+```
+
+#### 2. Use for react projects
+
+```json
+{
+  "extends": "@smooth-scrollbar-contrib/tsconfig/tsconfig.react.json",
 }
 ```
