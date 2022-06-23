@@ -18,7 +18,7 @@ npm install --save-dev @smooth-scrollbar-contrib/tsconfig
 }
 ```
 
-#### 2. Use for react projects
+#### 2. Use for React projects
 
 ```json
 {
@@ -27,7 +27,7 @@ npm install --save-dev @smooth-scrollbar-contrib/tsconfig
 ```
 
 
-#### 2. Use for Vue projects
+#### 3. Use for Vue projects
 
 ```json
 {
@@ -35,7 +35,7 @@ npm install --save-dev @smooth-scrollbar-contrib/tsconfig
 }
 ```
 
-#### 2. Use for Svelte projects
+#### 4. Use for Svelte projects
 
 ```json
 {
