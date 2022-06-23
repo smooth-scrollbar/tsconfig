@@ -1,0 +1,18 @@
+{
+  // shared tsconfig for vue projects, based on https://github.com/tsconfig/bases/blob/main/bases/svelte.json
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "target": "es2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    /**
+      TypeScript doesn't know about import usages in the template because it only sees the
+      script of a Svelte file. Therefore preserve all value imports. Requires TS 4.5 or higher.
+     */
+    "preserveValueImports": true,
+    /**
+      To have warnings/errors of the Svelte compiler at the correct position,
+      enable source maps by default.
+     */
+     "sourceMap": true,
+  }
+}
