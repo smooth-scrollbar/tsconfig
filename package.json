@@ -21,6 +21,9 @@
     "access": "public"
   },
   "files": [
-    "tsconfig.json"
+    "tsconfig.json",
+    "tsconfig.react.json",
+    "tsconfig.svelte.json",
+    "tsconfig.vue.json"
   ]
 }
