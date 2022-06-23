@@ -34,3 +34,11 @@ npm install --save-dev @smooth-scrollbar-contrib/tsconfig
   "extends": "@smooth-scrollbar-contrib/tsconfig/tsconfig.vue.json",
 }
 ```
+
+#### 2. Use for Svelte projects
+
+```json
+{
+  "extends": "@smooth-scrollbar-contrib/tsconfig/tsconfig.svelte.json",
+}
+```
