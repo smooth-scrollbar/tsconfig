@@ -25,3 +25,12 @@ npm install --save-dev @smooth-scrollbar-contrib/tsconfig
   "extends": "@smooth-scrollbar-contrib/tsconfig/tsconfig.react.json",
 }
 ```
+
+
+#### 2. Use for Vue projects
+
+```json
+{
+  "extends": "@smooth-scrollbar-contrib/tsconfig/tsconfig.vue.json",
+}
+```
