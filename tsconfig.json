@@ -1,4 +1,5 @@
 {
+  "$schema": "https://json.schemastore.org/tsconfig",
   // based on https://github.com/jaredpalmer/tsdx/blob/master/templates/react/tsconfig.json
   "compilerOptions": {
     // output .d.ts declaration files for consumers
@@ -9,10 +10,8 @@
     "forceConsistentCasingInFileNames": true,
     // import helper functions from `tslib` to reduce bundle size
     "importHelpers": true,
-    // force `import type` to be used instead of `import` when importing types
-    "importsNotUsedAsValues": "error",
-    // ensure all files are modules
-    "isolatedModules": true,
+    // tell TypeScript to enforce using `import type` instead of `import` for types.
+    "verbatimModuleSyntax": true,
     // use Node's module resolution algorithm, instead of the legacy TS one
     "moduleResolution": "node",
     // linter checks for common issues
@@ -26,6 +25,6 @@
     // output .js.map sourcemap files for consumers
     "sourceMap": true,
     // stricter type-checking for stronger correctness. Recommended by TS
-    "strict": true,
+    "strict": true
   }
 }
